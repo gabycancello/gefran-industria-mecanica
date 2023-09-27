@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/*style the button*/
+.go-up {
+    position: fixed;
+    width: 3.2rem;
+    height: 3.2rem;
+    background-color: #eee;
+    bottom: 2rem;
+    left: 2rem;
+    border-radius: 100%;
+    animation: fade 1s;
+    animation: pulse 2s infinite;
+    display: none;
+}
+.go-up:hover {
+    cursor: pointer;
+}
+.go-up i {
+    color: cornflowerblue;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*add pulse animation*/
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
+    }
+    70% {
+        box-shadow: 0 0 0 1rem rgba(253, 87, 191, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(253, 87, 191, 0);
+    }
+}
