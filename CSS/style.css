@@ -512,6 +512,10 @@ section{
     text-align: center;
 }
 
+.footer .credit{
+	color: #fff;
+}
+
 .footer .share{
     padding:1rem 0;
 }
