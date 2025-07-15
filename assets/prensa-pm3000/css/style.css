@@ -5,67 +5,10 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
-<<<<<<< HEAD
 body {
     background-color: #101010;
     color: #fff;
     line-height: 1.6;
-=======
-.about{
-	width: 100%;
-	padding: 100px 0px;
-	background-color: #191919;
-}
-.about img{
-	height: 1900;
-	width: 1000px;
-}
-.about-text{
-	width: 550px;
-}
-.main{
-	width: 1130px;
-	max-width: 95%;
-	margin: 0 auto;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-}
-.about-text h2{
-	color: white;
-	font-size: 75px;
-	text-transform: capitalize;
-	margin-bottom: 20px;
-}
-.about-text h5{
-	color: white;
-	letter-spacing: 2px;
-	font-size: 22px;
-	margin-bottom: 25px;
-	text-transform: capitalize;
-}
-.about-text p{
-	color: #fcfc;
-	letter-spacing: 1px;
-	line-height: 28px;
-	font-size: 18px;
-	margin-bottom: 45px;
-}
-button{
-	background-color: #000;
-	color: white;
-	text-decoration: none;
-	border: 2px solid transparent;
-	font-weight: bold;
-	padding: 13px 30px;
-	border-radius: 30px;
-	transition: .4s; 
-}
-button:hover{
-	background-color: transparent;
-	border: 2px solid cornflowerblue;
-	cursor: pointer;
->>>>>>> b4032bf4b995ef335b366374eb5108f963362187
 }
 
 /* About Section */
@@ -75,8 +18,7 @@ button:hover{
 }
 
 .main {
-    width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -87,11 +29,10 @@ button:hover{
 
 .about img {
     width: 100%;
-    max-width: 800px; /* imagem maior no desktop */
+    max-width: 950px; /* imagem grande no desktop */
     height: auto;
-    display: block;
-    margin: 0 auto;
     border-radius: 10px;
+    flex-shrink: 0;
 }
 
 .about-text {
@@ -99,12 +40,12 @@ button:hover{
 }
 
 .about-text h2 {
-    font-size: 36px;
+    font-size: 3rem;
     margin-bottom: 15px;
 }
 
 .about-text h5 {
-    font-size: 24px;
+    font-size: 1.6rem;
     margin-bottom: 15px;
 }
 
@@ -115,7 +56,7 @@ button:hover{
 .about-text p {
     color: #ccc;
     margin-bottom: 15px;
-    font-size: 18px;
+    font-size: 1.2rem;
 }
 
 /* Service */
@@ -127,8 +68,8 @@ button:hover{
 
 .service .title h2 {
     color: #fff;
-    font-size: 36px;
-    margin-bottom: 20px;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
 }
 
 .service .title img {
@@ -160,109 +101,74 @@ footer {
     color: #f0f0f0;
 }
 
-/* RESPONSIVIDADE */
-@media (max-width: 1024px) {
-    .about-text h2 {
-        font-size: 30px;
-    }
-}
+/* ==================== RESPONSIVIDADE ==================== */
 
-@media (max-width: 768px) {
+/* Tablets (até 1024px) */
+@media (max-width: 1024px) {
     .main {
         flex-direction: column;
         text-align: center;
     }
 
-    .about-text {
-        max-width: 100%;
+    .about img {
+        max-width: 80%;
     }
 
+    .about-text {
+        text-align: center;
+    }
+
+    .about-text h2 {
+        font-size: 2.5rem;
+    }
+
+    .about-text h5 {
+        font-size: 1.4rem;
+    }
+}
+
+/* Celulares grandes (até 768px) */
+@media (max-width: 768px) {
+    .about {
+        padding: 30px 4%;
+    }
+
+    .about img {
+        max-width: 95%;
+    }
+
+    .about-text h2 {
+        font-size: 2rem;
+    }
+
+    .about-text h5 {
+        font-size: 1.2rem;
+    }
+
+    .about-text p {
+        font-size: 1rem;
+    }
+
+    .service .title h2 {
+        font-size: 2rem;
+    }
+}
+
+/* Celulares pequenos (até 480px) */
+@media (max-width: 480px) {
     .about img {
         max-width: 100%;
     }
 
     .about-text h2 {
-        font-size: 24px;
+        font-size: 1.8rem;
+    }
+
+    .about-text h5 {
+        font-size: 1rem;
     }
 
     .about-text p {
-        font-size: 16px;
+        font-size: 0.95rem;
     }
 }
-<<<<<<< HEAD
-
-@media (max-width: 480px) {
-    .about-text h2 {
-        font-size: 20px;
-    }
-
-    .about-text p {
-        font-size: 14px;
-    }
-}
-=======
-.contact-me .button-two{
-	background-color:#f9004d;
-	color: white;
-	text-decoration: none;
-	border: 2px solid transparent;
-	font-weight: bold;
-	padding: 13px 30px;
-	border-radius: 30px;
-	transition: .4s; 
-}
-.contact-me .button-two:hover{
-	background-color: transparent;
-	border: 2px solid #f9004d;
-	cursor: pointer;
-}
-footer{
-	position: relative;
-	width: 100%;
-	height: 400px;
-	background: #101010;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
-footer p:nth-child(1){
-	font-size: 30px;
-	color: white;
-	margin-bottom: 20px;
-	font-weight: bold;
-}
-footer p:nth-child(2){
-	color: white;
-	font-size: 17px;
-	width: 500px;
-	text-align: center;
-	line-height: 26px;
-}
-.social{
-	display: flex;
-}
-.social a{
-	width: 45px;
-	height: 45px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background:  #f9004d;
-	border-radius: 50%;
-	margin: 22px 10px;
-	color: white;
-	text-decoration: none;
-	font-size: 20px;
-}
-.social a:hover{
-	transform: scale(1.3);
-	transition: .3s;
-}
-.end{
-	position: absolute;
-	color:#f9004d;
-	bottom: 35px;
-	font-size: 14px; 
-}
->>>>>>> b4032bf4b995ef335b366374eb5108f963362187
