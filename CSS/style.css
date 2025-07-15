@@ -276,13 +276,17 @@ section{
 }
 
 .menu .box-container .box{
-    padding:5rem;
+    padding:2rem;
     text-align: center;
     border:var(--border);    
 }
 
-.menu .box-container .box img{
-    height: 10rem;
+.menu .box-container .box .img {
+    width: 100%;      
+    min-height: 25rem;     
+    object-fit: cover; 
+    display: block;
+    border-radius: 10px;
 }
 
 .menu .box-container .box h3{
@@ -311,6 +315,7 @@ section{
 }
 .menu .box-container .box:hover{
     background:#fff;
+    transform: scale(1.10);
 }
 
 .menu .box-container .box:hover > *{
@@ -429,6 +434,14 @@ section{
 	justify-content: space-around;
     border: groove gray;
 }
+
+.captions .main img {
+    max-width: 100%;
+    width: 400px;
+    height: auto;
+    display: block;
+  }
+
 .captions .main  h2{
 	color: white;
 	font-size: 60px;
@@ -566,6 +579,9 @@ section{
     color:#fff;
     font-weight: lighter;
     padding:1.5rem;
+}
+.footer .credit{
+    color: #fff;
 }
 
 
