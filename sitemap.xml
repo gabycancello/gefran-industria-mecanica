@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home -->
+  <url>
+    <loc>https://gefran-industria-mecanica.vercel.app/</loc>
+    <lastmod>2025-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Página de Características Técnicas -->
+  <url>
+    <loc>https://gefran-industria-mecanica.vercel.app/Caracter_tec/</loc>
+    <lastmod>2025-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Conteúdo de Prensas -->
+  <url>
+    <loc>https://gefran-industria-mecanica.vercel.app/Prensas-content/</loc>
+    <lastmod>2025-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- assets: back-to-the-top (ex.: one.html) -->
+  <url>
+    <loc>https://gefran-industria-mecanica.vercel.app/assets/back-to-the-top/one.html</loc>
+    <lastmod>2025-08-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.30</priority>
+  </url>
+
+  <!-- assets: cada prensa (index.html dentro da pasta) -->
+  <url>
+    <loc>https://gefran-industria-mecanica.vercel.app/assets/prensa-ge02-crimpagem/</loc>
+    <lastmod>2025-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+  <url>
+    <loc>https://gefran-industria-mecanica.vercel.app/assets/prensa-pa2.0/</loc>
+    <lastmod>2025-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+  <url>
+    <loc>https://gefran-industria-mecanica.vercel.app/assets/prensa-pa6.0/</loc>
+    <lastmod>2025-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+  <url>
+    <loc>https://gefran-industria-mecanica.vercel.app/assets/prensa-pm100/</loc>
+    <lastmod>2025-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+  <url>
+    <loc>https://gefran-industria-mecanica.vercel.app/assets/prensa-pm3000/</loc>
+    <lastmod>2025-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+</urlset>
